@@ -1,56 +1,42 @@
-* {
-  margin: 0px;
-  padding: 0px;
+.container {
+  width: 950px;
+  background-color: silver;
+  margin: 0px auto;
+  padding: 15px;
 }
-
-.main {
-  background-color: #c0c0c0;
-  margin: 14px;
-  position: absolute;
-}
-
-.header {
+.top-nav {
+  height: 150px;
   background-color: green;
-  display: block;
-  height: 113px;
-  margin: 15px;
-  width: 712px;
+  margin: 0px 0px 15px 0px;
 }
-
-.sidebar {
+.side-nav {
+  height: 300px;
+  width: 200px;
   background-color: blue;
   display: inline-block;
-  height: 227px;
-  width: 152px;
+  margin: 0px 15px 0px 0px;
+}
+.main {
   vertical-align: top;
-  margin: 0px 18px 0px 15px;
-}
-
-.content {
+  display: inline-block;
+  height: 400px;
+  width: 700px;
   background-color: red;
-  display: inline-block;
-  height: 317px;
-  width: 542px;
-  margin: 0px 15px 15px 0px;
+  padding: 0px 31px 0px 0px;
 }
-
-.top-box {
-  border: none;
-  margin: 12px 10px 12px 0px;
+.sub-content {
   display: inline-block;
+  height: 200px;
+  width: 210px;
   background-color: yellow;
-  width: 158px;
-  height: 150px;
-  position: relative;
+  margin: 15px 10px 15px 0px;
 }
-
-.top-box:first-of-type {
-  margin-left: 12px;
+.sub-content:first-of-type {
+  margin-left: 15px;
 }
-
-.footer-box {
-  display: block;
+#advertisement {
+  height: 120px;
+  width: 660px;
   background-color: purple;
-  height: 90px;
-  margin: 22px 35px 43px 12px;
+  margin: 0px 15px;
 }
